@@ -122,6 +122,7 @@ pub(crate) fn ident_can_begin_expr(ident: ast::Ident, is_raw: bool) -> bool {
         keywords::Continue.name(),
         keywords::False.name(),
         keywords::For.name(),
+        keywords::Let.name(),
         keywords::If.name(),
         keywords::Loop.name(),
         keywords::Match.name(),
